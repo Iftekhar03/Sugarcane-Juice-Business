@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int t,n,nm;
+  scanf("%d",&t);
+  while(t--)
+    {
+      scanf("%d",&n);
+      nm=n*50;
+      double count=nm-(nm*0.7);
+      printf("%.0lf\n",count);
+    }
+  
+  return 0;
+}
